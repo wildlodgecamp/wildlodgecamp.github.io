@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wild Lodge Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#about" aria-label="Wild Lodge home">
+        <span class="brand-mark"></span>
+        <span>Wild Lodge</span>
+      </a>
+
+      <nav class="tabs" aria-label="Portfolio sections">
+        <button class="tab is-active" type="button" data-target="about">About</button>
+        <button class="tab" type="button" data-target="camps">Camps</button>
+        <button class="tab" type="button" data-target="contact">Contact</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="panel about-panel is-active" id="about" aria-labelledby="about-title">
+        <div class="about-overlay"></div>
+        <div class="about-copy">
+          <p class="eyebrow">Event Portfolio</p>
+          <h1 id="about-title">자연 속에서 오래 기억되는 순간을 설계합니다.</h1>
+        </div>
+      </section>
+
+      <section class="panel camps-panel" id="camps" aria-labelledby="camps-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Camps</p>
+            <h2 id="camps-title">진행 행사</h2>
+          </div>
+
+          <div class="camp-list">
+            <article class="camp-item">
+              <div class="camp-date">
+                <span>2026</span>
+                <strong>06.14</strong>
+              </div>
+              <div class="camp-main">
+                <h3>Forest Weekend Camp</h3>
+                <p>숲속 숙박, 로컬 다이닝, 팀 액티비티를 결합한 1박 2일 브랜드 캠프.</p>
+              </div>
+              <div class="camp-meta">
+                <span>Gapyeong</span>
+                <span class="status">Completed</span>
+              </div>
+            </article>
+
+            <article class="camp-item">
+              <div class="camp-date">
+                <span>2026</span>
+                <strong>05.02</strong>
+              </div>
+              <div class="camp-main">
+                <h3>Sunset Music Lodge</h3>
+                <p>라이브 공연과 캠프파이어를 중심으로 구성한 소규모 야외 음악 행사.</p>
+              </div>
+              <div class="camp-meta">
+                <span>Yangyang</span>
+                <span class="status">Completed</span>
+              </div>
+            </article>
+
+            <article class="camp-item">
+              <div class="camp-date">
+                <span>2026</span>
+                <strong>03.21</strong>
+              </div>
+              <div class="camp-main">
+                <h3>Outdoor Brand Retreat</h3>
+                <p>브랜드 파트너와 크리에이터가 함께한 제품 체험형 리트릿 프로그램.</p>
+              </div>
+              <div class="camp-meta">
+                <span>Jeju</span>
+                <span class="status">Completed</span>
+              </div>
+            </article>
+
+            <article class="camp-item">
+              <div class="camp-date">
+                <span>2025</span>
+                <strong>11.09</strong>
+              </div>
+              <div class="camp-main">
+                <h3>Autumn Table Camp</h3>
+                <p>계절 식재료와 아웃도어 키친을 활용한 프라이빗 다이닝 캠프.</p>
+              </div>
+              <div class="camp-meta">
+                <span>Pocheon</span>
+                <span class="status">Archive</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel contact-panel" id="contact" aria-labelledby="contact-title">
+        <div class="section-inner contact-inner">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">함께 만들 다음 행사를 이야기해 주세요.</h2>
+          <div class="contact-grid">
+            <a href="mailto:hello@wildlodge.kr">hello@wildlodge.kr</a>
+            <a href="tel:+821012345678">+82 10 1234 5678</a>
+            <span>Seoul, Korea</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
